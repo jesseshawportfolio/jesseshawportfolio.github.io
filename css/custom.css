@@ -118,6 +118,18 @@
 
 }
 
+#infoRow {
+    padding: 1em;
+
+}
+
+#videoPlayer {
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+    height: 100%;
+}
+
 
 @media (min-width: 560px) {
     #header {
@@ -156,6 +168,8 @@
         padding-top: 4em;
         padding-bottom: 1em;
         padding-left: 1em;
+        opacity: 1;
+        filter: alpha(opacity=0);
     }
 
     .highlightBox a {
@@ -168,12 +182,10 @@
     }
 
     .highlightBox .text {
-        visibility: hidden;
+        opacity: 0;
+        filter: alpha(opacity=00);
+        transition: 0.3s;
     }
-    
-    #videoPlayer {
-    text-align: center;
-    padding: 1em;
-}
+
 
 }

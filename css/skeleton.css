@@ -27,11 +27,11 @@ html {
 }
 
 body {
-  background-color: #fff;
+  background-color: #fafafa;
   font-size: 1rem;
   line-height: 1.6rem;
   font-weight: 400;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Open Sans', sans-serif;
   color: #222;
 }
 

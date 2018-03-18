@@ -177,7 +177,7 @@
 }
 
 #aboutText a:hover {
-    border-bottom: 3px solid blue;
+    border-bottom: 3px solid #2979FF;
 }
 
 @media (min-width: 560px) {
